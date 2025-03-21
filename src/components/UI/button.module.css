@@ -1,0 +1,61 @@
+.btn {
+  height: 3rem;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: purple;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* .btn:hover {
+  cursor: pointer;
+  border: 2px solid purple;
+  background-image: linear-gradient(to right, #fff, purple);
+  color: purple;
+} */
+.btn:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.btn:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+
+.btn:disabled,
+.btn:disabled:hover,
+.btn:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
