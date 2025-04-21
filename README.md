@@ -1,8 +1,8 @@
 # ASHOKNIRMAL's Portfolio
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/killer-abhi/Portfolio/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/killer-abhi/Portfolio.svg)](https://github.com/killer-abhi/Portfolio/issues)
-[![GitHub stars](https://img.shields.io/github/stars/killer-abhi/Portfolio.svg)](https://github.com/killer-abhi/Portfolio/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ashoknirmal/Portfolio/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/ashoknirmal/Portfolio.svg)](https://github.com/ashoknirmal/Portfolio/issues)
+[![GitHub stars](https://img.shields.io/github/stars/ashoknirmal/Portfolio.svg)](https://github.com/ashoknirmal/Portfolio/stargazers)
 
 Welcome to my professional portfolio! This repository showcases my skills, projects, and achievements. Feel free to explore the code and projects listed here.
 
